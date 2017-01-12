@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config description="TemplateConfig-AutoConf配置信息">
+    <group name="template-config.setting">
+        <property name="demoConfig" description="DEMO配置属性" required="true"/>
+    </group>
+
+    <script>
+        <generate template="template-config.properties.vm" destfile="template-config.properties" charset="UTF-8"/>
+    </script>
+</config>
